@@ -7,7 +7,7 @@ document.querySelectorAll(".drum")[i].addEventListener("click",function(){
     
 });
 }
-document.addEventListener("keypress",function(){
+document.addEventListener("keypress",function(){ 
     makeSound(event.key);
     buttonAnimation(event.key);
 
